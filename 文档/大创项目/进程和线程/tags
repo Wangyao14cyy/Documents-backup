@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+NUM_THREADS	thread5.c	13;"	d	file:
+WORK_SIZE	thread2.c	17;"	d	file:
+WORK_SIZE	thread3.c	18;"	d	file:
+bin_sem	thread2.c	/^sem_t bin_sem;$/;"	v
+main	execlp.c	/^int main()$/;"	f
+main	fork1.c	/^int main()$/;"	f
+main	fork2.c	/^int main()$/;"	f
+main	system1.c	/^int main()$/;"	f
+main	system2.c	/^int main()$/;"	f
+main	thread1.c	/^int main()$/;"	f
+main	thread2.c	/^int main()$/;"	f
+main	thread3.c	/^int main()$/;"	f
+main	thread5.c	/^int main()$/;"	f
+message	thread1.c	/^char message[]="Hello world";\/\/指针指向的字符串常量不可更改．不能用strcpy更改．$/;"	v
+thread_function	thread1.c	/^void *thread_function(void *arg)$/;"	f
+thread_function	thread2.c	/^void *thread_function(void *arg)$/;"	f
+thread_function	thread3.c	/^void *thread_function(void *arg)$/;"	f
+thread_function	thread5.c	/^void *thread_function(void *arg)$/;"	f
+time_to_exit	thread3.c	/^int time_to_exit=0;$/;"	v
+work_area	thread2.c	/^char work_area[WORK_SIZE];$/;"	v
+work_area	thread3.c	/^char work_area[WORK_SIZE];$/;"	v
+work_mutex	thread3.c	/^pthread_mutex_t work_mutex;$/;"	v

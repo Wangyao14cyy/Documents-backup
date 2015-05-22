@@ -1,0 +1,8 @@
+#!/bin/sh
+
+foo="happy birthday"
+export bar="hello world"
+
+export2.sh
+
+
